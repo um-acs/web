@@ -205,6 +205,6 @@ footer a {
 .footer-logo {
     width: 150px; /* Adjust as needed */
     height: 50px; /* Adjust as needed */
-    background: url('path/to/your/downloaded/logo.png') no-repeat center center/contain; /* Replace with your logo URL */
+    background: url('idsc.png') no-repeat center center/cover; /* Replace with your logo URL */
     margin-bottom: 10px;
 }
