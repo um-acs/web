@@ -194,3 +194,18 @@ footer {
 footer a {
     color: #F47321;
 }
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo {
+    width: 150px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    /* Add the logo image as a background here, e.g.: */
+    /* background: url('path/to/your/logo.png') no-repeat center center/contain; */
+    margin-bottom: 10px;
+}
