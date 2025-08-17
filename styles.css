@@ -76,7 +76,7 @@ main {
 
 section {
     padding: 4rem 0;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #eeeeee;
 }
 
 section:last-of-type {
@@ -98,7 +98,7 @@ h2 {
 
 .hub-button {
     background: #fff;
-    border: 1px solid #ddd;
+    border: 1px solid #eeeeee;
     padding: 20px 30px;
     border-radius: 5px;
     font-size: 1.2rem;
@@ -130,7 +130,7 @@ h2 {
 
 .card {
     background: #fff;
-    border: 1px solid #ddd;
+    border: 1px solid #eeeeee;
     border-radius: 5px;
     padding: 2rem;
     width: 30%;
@@ -167,7 +167,7 @@ h2 {
 
 .news-item {
     background: #fff;
-    border: 1px solid #ddd;
+    border: 1px solid #eeeeee;
     padding: 1.5rem;
     margin-bottom: 1rem;
     border-radius: 5px;
@@ -188,7 +188,7 @@ footer {
     margin-top: 2rem;
     background: #005030;
     color: #fff;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #eeeeee;
 }
 
 footer a {
