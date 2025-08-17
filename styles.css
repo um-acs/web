@@ -205,7 +205,6 @@ footer a {
 .footer-logo {
     width: 150px; /* Adjust as needed */
     height: 50px; /* Adjust as needed */
-    /* Add the logo image as a background here, e.g.: */
-    /* background: url('path/to/your/logo.png') no-repeat center center/contain; */
+    background: url('path/to/your/downloaded/logo.png') no-repeat center center/contain; /* Replace with your logo URL */
     margin-bottom: 10px;
 }
