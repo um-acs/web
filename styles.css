@@ -203,8 +203,8 @@ footer a {
 }
 
 .footer-logo {
-    width: 300px; /* Adjust as needed */
-    height: 100px; /* Adjust as needed */
-    background: url('idsc.png') no-repeat center center/cover; /* Replace with your logo URL */
+    width: 250px; /* Adjust as needed */
+    height: 64px; /* Adjust as needed */
+    background: url('idsc.png') no-repeat center center/contain; /* Replace with your logo URL */
     margin-bottom: 10px;
 }
