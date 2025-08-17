@@ -4,12 +4,12 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: #121212;
-    color: #e0e0e0;
+    background: #f2f2f2;
+    color: #333;
 }
 
 a {
-    color: #bb86fc;
+    color: #F47321;
     text-decoration: none;
 }
 
@@ -18,10 +18,18 @@ a:hover {
 }
 
 h1, h2, h3 {
-    color: #ffffff;
+    color: #005030;
 }
 
+/* Header */
+header {
+    background: #005030;
+    color: #fff;
+}
 
+.navbar-dark .navbar-brand, .navbar-dark .nav-link {
+    color: #fff;
+}
 
 /* Hero Section */
 .hero {
@@ -52,26 +60,12 @@ h1, h2, h3 {
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 0.5rem;
+    color: #fff;
 }
 
 .hero p {
     font-size: 1.5rem;
-}
-
-.cta-button {
-    display: inline-block;
-    background: #bb86fc;
-    color: #121212;
-    padding: 15px 30px;
-    margin-top: 20px;
-    border-radius: 5px;
-    font-weight: bold;
-    font-size: 1.2rem;
-}
-
-.cta-button:hover {
-    background: #a06cd5;
-    text-decoration: none;
+    color: #fff;
 }
 
 /* Sections */
@@ -81,7 +75,7 @@ main {
 
 section {
     padding: 4rem 0;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #ddd;
 }
 
 section:last-of-type {
@@ -102,18 +96,19 @@ h2 {
 }
 
 .hub-button {
-    background: #1f1f1f;
-    border: 1px solid #333;
+    background: #fff;
+    border: 1px solid #ddd;
     padding: 20px 30px;
     border-radius: 5px;
     font-size: 1.2rem;
     display: flex;
     align-items: center;
     gap: 10px;
+    color: #005030;
 }
 
 .hub-button:hover {
-    background: #333;
+    background: #f2f2f2;
     text-decoration: none;
 }
 
@@ -126,8 +121,8 @@ h2 {
 }
 
 .card {
-    background: #1f1f1f;
-    border: 1px solid #333;
+    background: #fff;
+    border: 1px solid #ddd;
     border-radius: 5px;
     padding: 2rem;
     width: 30%;
@@ -142,7 +137,7 @@ h2 {
 .card i {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #bb86fc;
+    color: #F47321;
 }
 
 /* News Feed */
@@ -152,8 +147,8 @@ h2 {
 }
 
 .news-item {
-    background: #1f1f1f;
-    border: 1px solid #333;
+    background: #fff;
+    border: 1px solid #ddd;
     padding: 1.5rem;
     margin-bottom: 1rem;
     border-radius: 5px;
@@ -168,6 +163,7 @@ footer {
     text-align: center;
     padding: 2rem 0;
     margin-top: 2rem;
-    background: #1f1f1f;
-    border-top: 1px solid #333;
+    background: #005030;
+    color: #fff;
+    border-top: 1px solid #ddd;
 }
