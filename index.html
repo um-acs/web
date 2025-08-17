@@ -3,12 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Awesome Website</title>
+    <title>HPC Landing Page</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-
 <body>
-    <h1>Hello, World!</h1>
-    <p>Welcome to my new website, hosted on GitHub Pages.</p>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#get-started">Get Started</a></li>
+                <li><a href="#getting-help">Getting Help</a></li>
+                <li><a href="#cluster-info">Cluster Info</a></li>
+                <li><a href="#news">News</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Accelerating Research Through Computation</h1>
+                <p>Your gateway to high-performance computing resources.</p>
+                <a href="#get-started" class="cta-button">Get Started Now</a>
+            </div>
+        </section>
+
+        <section id="get-started" class="hub">
+            <h2>Get Started Hub</h2>
+            <div class="hub-buttons">
+                <a href="#" class="hub-button"><i class="fas fa-user-plus"></i> Request an Account</a>
+                <a href="#" class="hub-button"><i class="fas fa-tasks"></i> Request an Allocation</a>
+                <a href="#" class="hub-button"><i class="fas fa-server"></i> System Status</a>
+            </div>
+        </section>
+
+        <section id="getting-help">
+            <h2>Getting Help</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3><i class="fas fa-book"></i> Knowledge Base</h3>
+                    <p>Find answers in our comprehensive user guide.</p>
+                    <a href="#">Go to Docs</a>
+                </div>
+                <div class="card">
+                    <h3><i class="fas fa-headset"></i> Contact Support</h3>
+                    <p>Reach out to our help desk for assistance.</p>
+                    <a href="#">Open a Ticket</a>
+                </div>
+                <div class="card">
+                    <h3><i class="fas fa-chalkboard-teacher"></i> Training</h3>
+                    <p>Join our office hours or workshops.</p>
+                    <a href="#">View Schedule</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="cluster-info">
+            <h2>Cluster Information</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3><i class="fas fa-cogs"></i> Hardware Specs</h3>
+                    <p>2,000+ CPU Cores</p>
+                    <p>100+ NVIDIA A100 GPUs</p>
+                    <p>High-speed Infiniband</p>
+                </div>
+                <div class="card">
+                    <h3><i class="fas fa-laptop-code"></i> Software Environment</h3>
+                    <p>Rocky Linux</p>
+                    <p>Modules for major applications</p>
+                </div>
+                <div class="card">
+                    <h3><i class="fas fa-hdd"></i> File Systems</h3>
+                    <p>Home, Scratch, and Project storage</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="news">
+            <h2>News and Announcements</h2>
+            <div class="news-feed">
+                <div class="news-item">
+                    <h3>Maintenance Notice</h3>
+                    <p>Scheduled downtime on Oct 26th for system upgrades.</p>
+                </div>
+                <div class="news-item">
+                    <h3>New Software Available</h3>
+                    <p>TensorFlow 2.10 is now available as a module.</p>
+                </div>
+                <div class="news-item">
+                    <h3>Success Story</h3>
+                    <p>Researchers discover new protein structure using the cluster.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 HPC Center</p>
+    </footer>
+
 </body>
 </html>
