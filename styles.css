@@ -154,6 +154,10 @@ h2 {
     color: #F47321;
 }
 
+.card a {
+    color: #F47321;
+}
+
 /* News Feed */
 .news-feed {
     max-width: 800px;
