@@ -50,7 +50,7 @@ header {
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 0.5rem;
-    color: #fff;
+    color: #fff !important;
 }
 
 .hero p {
