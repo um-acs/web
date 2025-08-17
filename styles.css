@@ -21,32 +21,7 @@ h1, h2, h3 {
     color: #ffffff;
 }
 
-/* Header & Navigation */
-header {
-    background: #1f1f1f;
-    padding: 1rem 0;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    border-bottom: 1px solid #333;
-}
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 20px;
-}
-
-nav a {
-    font-weight: bold;
-    font-size: 1.1rem;
-}
 
 /* Hero Section */
 .hero {
