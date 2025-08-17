@@ -44,7 +44,7 @@ header {
 
 /* Hero Section */
 .hero {
-    background: #005030;
+    background: url('idsc.png') no-repeat center center/cover;
     height: 40vh;
     display: flex;
     align-items: center;
