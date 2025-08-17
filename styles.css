@@ -27,6 +27,10 @@ header {
     color: #fff;
 }
 
+.navbar-light .navbar-brand, .navbar-light .nav-link {
+    color: #fff;
+}
+
 /* Hero Section */
 .hero {
     background: #005030;
