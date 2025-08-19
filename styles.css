@@ -44,13 +44,14 @@ header {
 
 /* Hero Section */
 .hero {
-        height: 20vh; /* Reduced height */
+        height: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: #fff;
     position: relative;
+    background: #e0e0e0;
 }
 
 .hero-content {
@@ -58,11 +59,12 @@ header {
     padding: 20px 0;
     display: flex; /* Added for horizontal alignment of logos */
     align-items: center;
+    justify-content: space-between; /* Align logos to left and right */
     gap: 20px; /* Space between logos */
 }
 
 .hero-logo {
-    max-height: 100px; /* Adjust as needed */
+    max-height: 200px;
     width: auto;
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
