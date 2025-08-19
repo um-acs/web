@@ -44,8 +44,7 @@ header {
 
 /* Hero Section */
 .hero {
-        background: url('um.jpg') no-repeat center center/contain;
-    height: 40vh; /* Increased height */
+        height: 20vh; /* Reduced height */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,9 +56,14 @@ header {
 .hero-content {
     z-index: 1;
     padding: 20px 0;
+    display: flex; /* Added for horizontal alignment of logos */
+    align-items: center;
+    gap: 20px; /* Space between logos */
 }
 
-.hero h1 {
+.hero-logo {
+    max-height: 100px; /* Adjust as needed */
+    width: auto;
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
     color: #fff !important;
