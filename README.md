@@ -17,7 +17,7 @@ This project is a static website for IDSC resources. It serves as a central hub 
 To run this project locally:
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/um-acs/web.git
    ```
 2. Navigate to the project directory:
    ```bash
