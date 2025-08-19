@@ -134,7 +134,7 @@ h2 {
     border: 1px solid #eeeeee;
     border-radius: 5px;
     padding: 2rem;
-    width: 30%;
+    width: 48%; /* Adjusted for 2x2 layout */
     min-width: 280px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
