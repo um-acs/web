@@ -44,8 +44,8 @@ header {
 
 /* Hero Section */
 .hero {
-        background: url('um.jpg') no-repeat right center/125%;
-    height: 12vh;
+        background: url('um.jpg') no-repeat right center/contain;
+    height: 30vh; /* Increased height */
     display: flex;
     align-items: center;
     justify-content: center;
