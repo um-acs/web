@@ -44,10 +44,10 @@ header {
 
 /* Hero Section */
 .hero {
-        height: 40vh;
+        height: 188px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     text-align: center;
     color: #fff;
     position: relative;
@@ -56,19 +56,31 @@ header {
 
 .hero-content {
     z-index: 1;
-    padding: 20px 0;
+    padding: 20px 0 20px 20px;
     display: flex; /* Added for horizontal alignment of logos */
     align-items: center;
-    justify-content: space-between; /* Align logos to left and right */
+    justify-content: flex-start;
     gap: 20px; /* Space between logos */
 }
 
 .hero-logo {
-    max-height: 200px;
+    max-height: 150px;
     width: auto;
+    max-width: 100%;
+    height: auto;
+    flex-shrink: 1;
+    flex-basis: 0;
+    flex-grow: 1;
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
     color: #fff !important;
+}
+
+.hero-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #005030;
+    margin-left: 10px;
 }
 
 .hero p {
