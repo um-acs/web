@@ -77,8 +77,8 @@ header {
 }
 
 .hero-text {
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 2.0rem;
+    font-weight: normal;
     color: #005030;
     margin-left: 10px;
 }
