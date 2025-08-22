@@ -25,67 +25,145 @@ h1, h2, h3 {
 
 /* Header */
 header {
-    background: #005030;
+    background: #000; /* Black */
     color: #fff;
+    padding: 0.5rem 0; /* Add some vertical padding to the header itself */
 }
 
-.navbar-light .navbar-brand, .navbar-light .nav-link {
+.navbar {
+    padding-top: 0.75rem; /* Adjust Bootstrap's default padding */
+    padding-bottom: 0.75rem;
+}
+
+.navbar-brand {
+    font-size: 1.8rem; /* Larger brand text */
+    font-weight: 700; /* Bolder */
+    letter-spacing: 1px; /* Slight letter spacing */
+    color: #fff !important; /* Ensure it's white */
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #F47321 !important; /* Orange on hover for brand */
+}
+
+.navbar-nav .nav-item {
+    margin-left: 15px; /* Spacing between nav items */
+}
+
+.navbar-light .nav-link {
     color: #fff;
-    font-weight: bold;
+    font-weight: 500; /* Slightly less bold than brand */
+    padding: 0.5rem 0; /* Adjust padding */
+    position: relative; /* For underline effect */
 }
 
 .navbar-light .nav-link:hover {
-    opacity: 0.8;
+    color: #F47321; /* Orange on hover */
+    opacity: 1; /* Ensure full opacity */
 }
 
+/* Underline effect on hover */
+.navbar-light .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px; /* Position below text */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #F47321; /* Orange underline */
+    transition: width 0.3s ease-out;
+}
+
+.navbar-light .nav-link:hover::after {
+    width: 100%;
+}
+
+/* Adjust toggler icon color if needed, though it's already white */
 .navbar-light .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
+.navbar-logo {
+    max-height: 40px; /* Adjust as needed to fit your navbar height */
+    width: auto;
+}
+
 /* Hero Section */
 .hero {
-        height: 188px;
+    height: 500px; /* Or 60vh for viewport height */
+    background-size: cover;
+    background-position: center;
+    position: relative;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    text-align: center;
+    justify-content: center;
     color: #fff;
-    position: relative;
-    background: #e0e0e0;
+    text-align: center;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    z-index: 0;
 }
 
 .hero-content {
     z-index: 1;
-    padding: 20px 0 20px 20px;
-    display: flex; /* Added for horizontal alignment of logos */
-    align-items: center;
-    justify-content: flex-start;
-    gap: 20px; /* Space between logos */
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-.hero-logo {
-    max-height: 150px;
-    width: auto;
-    max-width: 100%;
-    height: auto;
-    flex-shrink: 1;
-    flex-basis: 0;
-    flex-grow: 1;
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
-    color: #fff !important;
-}
-
-.hero-text {
-    font-size: 2.0rem;
-    font-weight: normal;
-    color: #005030;
-    margin-left: 10px;
-}
-
-.hero p {
-    font-size: 1.2rem;
+.hero-headline {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
     color: #fff;
+    line-height: 1.2;
+}
+
+.hero-tagline {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.hero-cta {
+    display: inline-block;
+    background-color: #F47321; /* University of Miami orange */
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.hero-cta:hover {
+    background-color: #d45f1a; /* Darker orange on hover */
+    text-decoration: none;
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Bootstrap's default secondary color */
+    color: #fff;
+    border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+.hero-logo-small {
+    max-width: 100px; /* Adjust as needed */
+    height: auto;
+    margin-bottom: 1rem; /* Space below the logo */
 }
 
 /* Sections */
