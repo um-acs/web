@@ -299,6 +299,6 @@ footer a {
 .footer-logo {
     width: 250px; /* Adjust as needed */
     height: 64px; /* Adjust as needed */
-    background: url('um2.png') no-repeat center center/contain; /* Replace with your logo URL */
+    background: url('um.png') no-repeat center center/contain; /* Replace with your logo URL */
     margin-bottom: 10px;
 }
