@@ -1,129 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>University of Miami HPC</title>
-    <link rel="icon" href="https://cdn.worldvectorlogo.com/logos/university-of-miami.svg">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css?v=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UM HPC Gateway</title>
+  <link rel="icon" href="https://cdn.worldvectorlogo.com/logos/university-of-miami.svg" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css?v=3.0" />
 </head>
 <body>
+  <header class="topbar">
+    <div class="wrap nav-row">
+      <a class="brand" href="https://idsc.miami.edu">
+        <img src="U2.png" alt="UM IDSC" />
+      </a>
+      <nav class="nav-links">
+        <a href="https://idsc.miami.edu/docs">Knowledge Base</a>
+        <a href="https://idsc.miami.edu/hpc-help">HPC Support</a>
+        <a href="https://idsc.miami.edu/quick-links">Quick Links</a>
+        <a href="https://idsc.miami.edu/systems">Applications</a>
+      </nav>
+    </div>
+  </header>
 
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-            <div class="container-fluid">
-                                <a class="navbar-brand" href="https://idsc.miami.edu"><img src="U2.png" alt="IDSC Logo" class="navbar-logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://idsc.miami.edu/account-request">Request Account</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://idsc.miami.edu/project-request">Request Project</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://idsc.miami.edu/inquiry">General Inquiry</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://idsc.miami.edu/docs">Knowledge Base</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://idsc.miami.edu/hpc-help">HPC Support</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://idsc.miami.edu/quick-links">Quick Links</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://idsc.miami.edu/systems">Application Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://idsc.miami.edu/onboarding-videos">Videos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://idsc.miami.edu/book-office-hours">Office Hours</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <main>
-                <section class="hero" style="background-image: url('https://idsc.miami.edu/acs-logo');">
-            <div class="hero-overlay"></div>
-            <div class="hero-content">
-            </div>
-        </section>
-
-        <section id="get-started" class="hub">
-            <h2>Get Started Hub</h2>
-            <div class="hub-buttons">
-                <a href="https://idsc.miami.edu/account-request" class="hub-button"><i class="fas fa-user-plus"></i> Request an IDSC Account (requires Project)</a>
-                <a href="https://idsc.miami.edu/project-request" class="hub-button"><i class="fas fa-tasks"></i> Request a Project</a>
-                <a href="https://idsc.miami.edu/inquiry" class="hub-button"><i class="fas fa-question-circle"></i> General Inquiry</a>
-            </div>
-        </section>
-
-        <section id="getting-help">
-            <h2>Getting Help</h2>
-            <div class="card-container">
-                <div class="card">
-                    <h3><i class="fas fa-book"></i> Knowledge Base</h3>
-                    <p>Find answers in our comprehensive user guide.</p>
-                    <a href="https://idsc.miami.edu/docs">Knowledge Base</a>
-                </div>
-                <div class="card">
-                    <h3><i class="fas fa-headset"></i>HPC Support</h3>
-                    <p>Reach out to our help desk for assistance with Pegasus or Triton</p>
-                    <a href="https://idsc.miami.edu/hpc-help">Contact Support</a>
-                </div>
-                <div class="card">
-                    <h3><i class="fas fa-link"></i>Quick Links</h3>
-                    <p>Look more at our resources and services.</p>
-                    <a href="https://idsc.miami.edu/quick-links">More Information</a>
-                </div>
-                <div class="card">
-                    <h3><i class="fas fa-chalkboard-teacher"></i>Application Servcies</h3>
-                    <p>Report problems or make requests for application services.</p>
-                    <a href="https://idsc.miami.edu/systems">More Information</a>
-                </div>
-                <div class="card">
-                    <h3><i class="fas fa-video"></i>How-to Videos</h3>
-                    <p>Watch our video tutorials for step-by-step guidance.</p>
-                    <a href="https://idsc.miami.edu/onboarding-videos">Watch Videos</a>
-                </div>
-                <div class="card">
-                    <h3><i class="fas fa-calendar-alt"></i> Office Hours</h3>
-                    <p>Schedule a one-on-one session for personalized help.</p>
-                    <a href='https://idsc.miami.edu/book-office-hours'>Schedule online</a>
-                </div>
-                <div class="card">
-                    <h3><i class="fas fa-envelope-open-text"></i> Event Mail List</h3>
-                    <p>Sign up to receive email notifications of events held by the University of Miami Frost Institute for Data Science and Computing.</p>
-                    <a href='https://idsc.miami.edu/subscribe-to-our-mailing-list/'>Subscribe Here</a>
-                </div>
-                    <div class="card">
-                    <h3><i class="fas fa-bell"></i> Pegasus & Triton Mail List</h3>
-                    <p>Sign up to receive email notifications for Triton & Pegasus System Updates.</p>
-                    <a href="https://listserv.miami.edu/scripts/wa.exe?SUBED1=idsc-users&A=1">Subscribe Here</a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="footer-content">
-
-            <div class="footer-logo"></div>
-             <p>&copy; 2025 University of Miami</p>
+  <main>
+    <section class="hero-v2">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="kicker">University of Miami • Frost IDSC</p>
+          <h1>IDSC Advanced Computing</h1>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="https://idsc.miami.edu/project-request">Request Project</a>
+            <a class="btn btn-outline" id="request-account-btn" href="https://idsc.miami.edu/account-request">Request Account</a>
+            <a class="btn btn-ghost" href="https://idsc.miami.edu/hpc-help">Get Support</a>
+          </div>
+          <p class="micro-note"><strong>Note:</strong> A project is required before requesting an account.</p>
         </div>
-    </footer>
+        <aside class="quick-panel">
+          <h2>Start Here</h2>
+          <ol>
+            <li><a href="https://idsc.miami.edu/project-request">Submit Project Request</a></li>
+            <li>Wait for project approval</li>
+            <li><a href="https://idsc.miami.edu/account-request">Submit Account Request</a></li>
+          </ol>
+          <a class="panel-link" href="https://idsc.miami.edu/inquiry">Need help deciding? General Inquiry →</a>
+        </aside>
+      </div>
+    </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <section class="section wrap">
+      <h2>Core Actions</h2>
+      <div class="tiles">
+        <a class="tile" href="https://idsc.miami.edu/project-request">
+          <i class="fas fa-diagram-project"></i>
+          <h3>Request Project</h3>
+          <p>Create a project space for your team, data, and compute workflows.</p>
+        </a>
+        <a class="tile" href="https://idsc.miami.edu/account-request">
+          <i class="fas fa-user-plus"></i>
+          <h3>Request Account</h3>
+          <p>After project approval, request user access tied to your project.</p>
+        </a>
+        <a class="tile" href="https://idsc.miami.edu/hpc-help">
+          <i class="fas fa-headset"></i>
+          <h3>Get HPC Support</h3>
+          <p>Reach support for Pegasus/Triton, queues, jobs, and troubleshooting.</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="wrap">
+        <h2>Resources & Training</h2>
+        <div class="cards">
+          <article class="card">
+            <h3><i class="fas fa-book"></i> Knowledge Base</h3>
+            <p>Guides, FAQs, and reference docs for system usage and workflows.</p>
+            <a href="https://idsc.miami.edu/docs">Open Docs</a>
+          </article>
+          <article class="card">
+            <h3><i class="fas fa-video"></i> Onboarding Videos</h3>
+            <p>Short walkthroughs to accelerate setup and onboarding.</p>
+            <a href="https://idsc.miami.edu/onboarding-videos">Watch Videos</a>
+          </article>
+          <article class="card">
+            <h3><i class="fas fa-calendar-alt"></i> Office Hours</h3>
+            <p>Book a 1:1 support session for project-specific questions.</p>
+            <a href="https://idsc.miami.edu/book-office-hours">Schedule</a>
+          </article>
+          <article class="card">
+            <h3><i class="fas fa-link"></i> Quick Links</h3>
+            <p>Jump to commonly used services and operational pages.</p>
+            <a href="https://idsc.miami.edu/quick-links">Browse Links</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-row">
+      <div class="footer-logo"></div>
+      <p>© 2026 University of Miami · Frost Institute for Data Science and Computing</p>
+    </div>
+  </footer>
+
+  <script>
+    const accountBtn = document.getElementById('request-account-btn');
+    if (accountBtn) {
+      accountBtn.addEventListener('click', function (e) {
+        const proceed = window.confirm(
+          'A project is required before requesting an account.\n\nYou have two paths:\n1) Submit a new Project Request.\n2) Request to join an existing project (requires PI/project owner approval).\n\nAfter project approval or project-join approval, submit your Account Request tied to that project.\n\nPress OK to continue to Account Request, or Cancel to go to Project Request.'
+        );
+        if (!proceed) {
+          e.preventDefault();
+          window.location.href = 'https://idsc.miami.edu/project-request';
+        }
+      });
+    }
+  </script>
 </body>
 </html>
